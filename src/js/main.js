@@ -29,7 +29,7 @@ $(".formbody").append(formTemplate(datum))
 var formTemplate = function(data) {
   console.log('data', data)
 
-return   `<div class="form"> <form id ="${data.id}"> <input type="${data.type}" placeholder="${data.label}"></input></form></div>`
+return   `<div class="form"> <form id ="${data.id}"><i class="fa ${data.icon}"></i> <input type="${data.type}" class="${data.id}" placeholder="      ${data.label}"></input></form></div>`
 }
 
 
