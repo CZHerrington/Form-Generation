@@ -34,3 +34,8 @@ return   `<div class="form"> <form id ="${data.id}"><i class="fa ${data.icon}"><
 
 
 // <i class="fa fa-envelope-o"></i>
+
+// Hey, just drop an if statement in the forEach prototype to direct the
+// function to the correct template literal based on ${data.type}. First
+// you have to create another template though. Remember to properly define variables
+// so you don't have anymore damn undefineds
